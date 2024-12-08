@@ -9,3 +9,12 @@ function checkPrime(num) {
   
     return true; // If no divisors are found, the number is prime
   }
+  
+  function checkEvenOdd(num) {
+    if (num%2==0){
+    return true; // Numbers less than or equal to 1 are not prime
+  }
+    else{
+        return false
+    }
+  }
